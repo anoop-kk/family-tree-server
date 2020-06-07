@@ -1,0 +1,33 @@
+{
+  "name": "family-tree-server",
+  "version": "1.0.0",
+  "description": "family tree construction server",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel ./src -d dist",
+    "start": "npm run build && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anoop-kk/family-tree-server.git"
+  },
+  "keywords": [
+    "tree",
+    "contruction"
+  ],
+  "author": "anoop-kk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anoop-kk/family-tree-server/issues"
+  },
+  "homepage": "https://github.com/anoop-kk/family-tree-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2"
+  }
+}
